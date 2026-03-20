@@ -1,0 +1,131 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/03/2020 06:32
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../fonts/Flaticon.eot");
+  src: url("../../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("../../fonts/Flaticon.woff2") format("woff2"),
+       url("../../fonts/Flaticon.woff") format("woff"),
+       url("../../fonts/Flaticon.ttf") format("truetype"),
+       url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-law:before { content: "\f100"; }
+.flaticon-law-1:before { content: "\f101"; }
+.flaticon-bid:before { content: "\f102"; }
+.flaticon-law-2:before { content: "\f103"; }
+.flaticon-court:before { content: "\f104"; }
+.flaticon-lawyer:before { content: "\f105"; }
+.flaticon-bank:before { content: "\f106"; }
+.flaticon-law-3:before { content: "\f107"; }
+.flaticon-gun:before { content: "\f108"; }
+.flaticon-lawyer-1:before { content: "\f109"; }
+.flaticon-law-4:before { content: "\f10a"; }
+.flaticon-law-5:before { content: "\f10b"; }
+.flaticon-handcuffs:before { content: "\f10c"; }
+.flaticon-law-6:before { content: "\f10d"; }
+.flaticon-guard:before { content: "\f10e"; }
+.flaticon-suitcase:before { content: "\f10f"; }
+.flaticon-shout:before { content: "\f110"; }
+.flaticon-emoji:before { content: "\f111"; }
+.flaticon-strong:before { content: "\f112"; }
+.flaticon-trophy:before { content: "\f113"; }
+.flaticon-police-station:before { content: "\f114"; }
+.flaticon-law-7:before { content: "\f115"; }
+.flaticon-car:before { content: "\f116"; }
+.flaticon-police-badge:before { content: "\f117"; }
+.flaticon-quote:before { content: "\f118"; }
+.flaticon-quote-1:before { content: "\f119"; }
+.flaticon-medal:before { content: "\f11a"; }
+.flaticon-unlock:before { content: "\f11b"; }
+.flaticon-biometric:before { content: "\f11c"; }
+.flaticon-law-8:before { content: "\f11d"; }
+.flaticon-law-9:before { content: "\f11e"; }
+.flaticon-trajectory:before { content: "\f11f"; }
+.flaticon-court-1:before { content: "\f120"; }
+.flaticon-return:before { content: "\f121"; }
+.flaticon-back:before { content: "\f122"; }
+.flaticon-arrow:before { content: "\f123"; }
+.flaticon-clock:before { content: "\f124"; }
+.flaticon-book:before { content: "\f125"; }
+.flaticon-star:before { content: "\f126"; }
+.flaticon-law-10:before { content: "\f127"; }
+.flaticon-law-11:before { content: "\f128"; }
+.flaticon-legal-document:before { content: "\f129"; }
+.flaticon-money:before { content: "\f12a"; }
+.flaticon-call:before { content: "\f12b"; }
+.flaticon-placeholder:before { content: "\f12c"; }
+.flaticon-email:before { content: "\f12d"; }
+.flaticon-internet:before { content: "\f12e"; }
+.flaticon-settings:before { content: "\f12f"; }
+.flaticon-like:before { content: "\f130"; }
+.flaticon-brand:before { content: "\f131"; }
+.flaticon-pinterest:before { content: "\f132"; }
+.flaticon-twitter:before { content: "\f133"; }
+.flaticon-wechat:before { content: "\f134"; }
+.flaticon-snapchat:before { content: "\f135"; }
+.flaticon-whatsapp:before { content: "\f136"; }
+.flaticon-android:before { content: "\f137"; }
+.flaticon-skype:before { content: "\f138"; }
+.flaticon-youtube:before { content: "\f139"; }
+.flaticon-linkedin:before { content: "\f13a"; }
+.flaticon-brands-and-logotypes:before { content: "\f13b"; }
+.flaticon-firefox:before { content: "\f13c"; }
+.flaticon-law-12:before { content: "\f13d"; }
+.flaticon-witness:before { content: "\f13e"; }
+.flaticon-hourglass:before { content: "\f13f"; }
+.flaticon-cctv:before { content: "\f140"; }
+.flaticon-wifi:before { content: "\f141"; }
+.flaticon-eye:before { content: "\f142"; }
+.flaticon-target:before { content: "\f143"; }
+.flaticon-libra:before { content: "\f144"; }
+.flaticon-files-and-folders:before { content: "\f145"; }
+.flaticon-commerce-and-shopping:before { content: "\f146"; }
+.flaticon-oath:before { content: "\f147"; }
+.flaticon-law-13:before { content: "\f148"; }
+.flaticon-money-1:before { content: "\f149"; }
+.flaticon-auction:before { content: "\f14a"; }
+.flaticon-promotion:before { content: "\f14b"; }
+.flaticon-briefcase:before { content: "\f14c"; }
+.flaticon-law-14:before { content: "\f14d"; }
+.flaticon-law-15:before { content: "\f14e"; }
+.flaticon-judge:before { content: "\f14f"; }
+.flaticon-judge-1:before { content: "\f150"; }
+.flaticon-judge-2:before { content: "\f151"; }
+.flaticon-law-16:before { content: "\f152"; }
+.flaticon-law-17:before { content: "\f153"; }
+.flaticon-requirement:before { content: "\f154"; }
+.flaticon-court-2:before { content: "\f155"; }
+.flaticon-lawyer-2:before { content: "\f156"; }
+.flaticon-honesty:before { content: "\f157"; }
+.flaticon-time-and-date:before { content: "\f158"; }
+.flaticon-auction-1:before { content: "\f159"; }
+.flaticon-court-3:before { content: "\f15a"; }
+.flaticon-gdpr:before { content: "\f15b"; }
+.flaticon-law-18:before { content: "\f15c"; }
+.flaticon-thief:before { content: "\f15d"; }
+.flaticon-flash:before { content: "\f15e"; }
+.flaticon-gps:before { content: "\f15f"; }
+.flaticon-care:before { content: "\f160"; }
+.flaticon-value:before { content: "\f161"; }
+.flaticon-market:before { content: "\f162"; }
+.flaticon-handshake:before { content: "\f163"; }
+.flaticon-connector:before { content: "\f164"; }

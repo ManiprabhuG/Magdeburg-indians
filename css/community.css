@@ -1,0 +1,262 @@
+*{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.community-container{
+    background-image: url("/images/Gandhi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.community-container::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.community-scroll-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    row-gap: 30%;
+}
+
+.scroll-head-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 40px;
+    position: relative;
+    top: 30%;
+}
+.community-scroll-heading{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 5px;
+}
+
+.scroll-head-container span{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.community-scroll-icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-scroll-icons-container i{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+/* community pdf styling */
+
+.community-pdf-container{
+    background-color: #000;
+    height: 30%;
+    width: 100%;
+    padding: 20px;
+}
+
+.community-pdf-container h4{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+/* button hover styling */
+.view-details {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: 20px;
+    font-family: inherit;
+    width: 14rem;
+    height: auto;
+    margin-left: 42%;
+}
+
+.view-details .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #f26722;
+    margin-top: 4px;
+}
+
+.view-details .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+
+}
+
+.view-details .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+.view-details .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+.view-details .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #f26722;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.view-details:hover .circle {
+    width: 100%;
+}
+
+.view-details:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+
+}
+
+.view-details:hover .button-text {
+    color: #fff;
+}
+
+
+/* award recognitions styling */
+
+.whole-award-container h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #f26722;
+    text-align: center;
+}
+
+.whole-award-container p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #f26722;
+    line-height: 25px;
+    text-align: center;
+}
+
+/* awards tab styling */
+
+.community-content p {
+    /* padding-top: 20px;
+    background-color: #000000; */
+    color: #000;
+}
+
+.tab{
+    overflow-x: hidden;
+    border-top: 10px solid #f26722;
+    border-right: 30px solid #f26722;
+    border-left: 5px solid #f26722;
+    border-bottom: none;
+    background-color: #000;
+}
+
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    border-radius: 1px;
+    position: relative;
+    right: 1.4%;
+    height: 50px;
+    width: 300px;
+}
+
+.tab button.active{
+    background-color: #f26722;
+    color: #fff;
+    position: relative;
+    right: 1.4%;
+    height: 50px;
+    width: 300px;
+}
+
+.tabcontent{
+    display: none;
+    padding: 30px 20px;
+    border-right: 30px solid #f26722;
+    border-left: 5px solid #f26722;
+    border-bottom: 5px solid #f26722;
+    background-color: #fff;
+    border-top: none;
+}
+
+.tabcontent a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #f26722;
+    text-decoration: none;
+}

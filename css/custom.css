@@ -1,0 +1,149 @@
+.carousel-item img {
+    width: 100%;
+}
+
+.carousel-control-prev {
+    left: 5%;
+}
+
+.carousel-control-next {
+    right: 5%;
+}
+
+
+.list.list-light li {
+    color: #242323 !important;
+}
+
+.card-body {
+    background-color: #f26722;
+    padding: 10px 30px 15px 0px;
+    border-radius: 0px 1px 10px 10px;
+}
+
+.item {
+  background: #242323;
+    border:  2px solid #fff;
+    border-collapse: collapse;
+}
+
+
+.about-us-team {
+    padding-top: 60px;
+}
+
+.faq-img {
+    width: 100%;
+}
+
+.container-11 h1{
+    font-size: 40px;
+    font-style: normal;
+    color: #f26722;
+    text-align: center !important;
+}
+
+.sponcer-image img{
+  margin-top: 50px !important;
+  margin-left: 600px !important;
+}
+/* 
+.slide-1 img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 60s linear infinite;
+  }
+  
+  .slide-track-1 {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  .slider-1 {
+    margin-top: 70px;
+    background-color: whitesmoke;
+    padding: 8em 2em;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
+
+  @media (min-width:280px) and (max-width:315px){
+    .sponcer-image img{
+        margin-left: 100px !important;
+    }
+  }
+
+  @media (min-width:320px) and (max-width:479px){
+   .bg-holder img{
+      width: 100% !important;
+   }
+    .sponcer-image img{
+        margin-left: 100px !important;
+    }
+  }
+  @media (min-width:360px){
+    .sponcer-image img{
+        margin-left: 120px !important;
+    } 
+  }
+  @media (min-width:390px) and (max-width:450px)
+  {
+    .sponcer-image img{
+        margin-left: 150px !important;
+    }
+  }
+
+  @media (min-width:520px) and (max-width:600px){
+    .bg-holder img{
+        width: 100% !important;
+     }
+    .sponcer-image img{
+        margin-left: 250px !important;
+    }
+  }
+
+  @media (min-width:601px) and (max-width:790px){
+    .bg-holder img{
+        width: 100% !important;
+     }
+    .sponcer-image img{
+        margin-left: 300px !important;
+    }
+  }
+
+  @media (min-width: 800px) and (max-width:950px){
+    .bg-holder img{
+        width: 100% !important;
+     }
+    .sponcer-image img{
+        margin-left: 350px !important;
+    }
+  }
+  @media (min-width: 800px){
+    .sponcer-image img{
+        margin-left: 400px !important;
+    }
+  }
+
+  @media (min-width:1020px) and (max-width:1300px){
+   .d-lg-block img{
+    width: 115%;
+    margin-top: 70px;
+   }
+   .bg-holder img{
+    width: 100% !important;
+ }
+ .sponcer-image img{
+  margin-left: 450px !important;
+}
+  }
+  @media (min-width:1280px){
+    .sponcer-image img{
+      margin-left: 600px !important;
+    }   
+  } */

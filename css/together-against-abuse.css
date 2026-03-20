@@ -1,0 +1,148 @@
+.together-against-abuse-orange-container{
+    background-color: #f26722;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+
+}
+.together-against-abuse-text1{
+    color: white;
+}
+.together-against-abuse-text2{
+    color: #f26722;
+}
+.together-against-abuse-text3{
+    color: #000;
+}
+.together-against-abuse-text4{
+    color:#fd7e14;
+}
+.together-against-abuse-text5{
+    color:#dc3545;
+}
+
+.container{
+    width:80%;
+    margin-left: 9%;
+}
+
+
+
+
+
+.together-against-abuse-grey-container{
+    background-color: black;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: white;
+    font-size: larger;
+}
+
+
+.together-against-abuse-orange-container2{
+    background-color: #f26722;
+    margin-top: 100px;
+    padding-top: 20px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    flex-direction: column;
+
+}
+
+.view-details {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: 20px;
+    font-family: inherit;
+    width: 14rem;
+    height: auto;
+    margin-left: 5%;
+}
+
+.view-details .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: black;
+    margin-top: 4px;
+
+
+
+}
+
+.view-details .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+
+}
+
+.view-details .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+.view-details .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+.view-details .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: white;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.view-details:hover .circle {
+    width: 100%;
+}
+
+.view-details:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+
+}
+
+.view-details:hover .button-text {
+    color: #fff;
+}

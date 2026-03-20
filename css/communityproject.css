@@ -1,0 +1,299 @@
+*{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.whole-project-container{
+    background-color: #000;
+    height: 60vh;
+    width: 100%;
+}
+
+.project-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.project-content h1{
+    text-align: center;
+    padding: 0px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #f26722;
+}
+
+.project-content p{
+    text-align: center;
+    font-size: 14px;
+    color: #f26722;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+/* hover button to view pdfs */
+
+.view-details {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: 20px;
+    font-family: inherit;
+    width: 14rem;
+    height: auto;
+}
+
+.view-details .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #f26722;
+    margin-top: 4px;
+}
+
+.view-details .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+
+}
+
+.view-details .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+.view-details .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+.view-details .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #f26722;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.view-details:hover .circle {
+    width: 100%;
+}
+
+.view-details:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+
+}
+
+.view-details:hover .button-text {
+    color: #fff;
+}
+
+
+
+
+/* tabs of about project */
+
+/* awards tab styling */
+
+
+.family-content p {
+    /* padding-top: 20px; */
+    /* background-color: #000000; */
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tab{
+    overflow-x: hidden;
+    border: 5px solid #f26722;
+    border-bottom: none;
+    background-color: #000;
+}
+
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    border-radius: 1px;
+    position: relative;
+    right: 1.4%;
+    width: 180px;
+}
+
+.tab button.active{
+    background-color: #f26722;
+    color: #fff;
+    position: relative;
+    width: 180px !important;
+    right: 1.4%;
+}
+
+.tabcontent{
+    display: none;
+    padding: 30px 20px;
+    border: 5px solid #f26722;
+    background-color: #fff;
+    border-top: none;
+}
+
+.tabcontent a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #f26722;
+    text-decoration: none;
+}
+.img-container img{
+    width: 90%;
+}
+
+
+
+/* 
+.tabcontent .container p {
+    /* padding-top: 20px;
+    background-color: #000000; */
+    /* color: #000;
+    font-size: 20px;
+}
+
+.tab{
+    overflow-x: hidden;
+    border-top: 10px solid #f26722;
+    border-right: 30px solid #f26722;
+    border-left: 5px solid #f26722;
+    border-bottom: none;
+    background-color: #000;
+}
+
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    border-radius: 1px;
+    position: relative;
+    right: 1.4%;
+    height: 50px;
+    width: 100px;
+}
+
+.tab button.active{
+    background-color: #f26722;
+    color: #fff;
+    position: relative;
+    right: 1.4%;
+    height: 50px;
+    width: 100px;
+}
+
+.tabcontent{
+    display: none;
+    padding: 30px 20px;
+    border-right: 30px solid #f26722;
+    border-left: 5px solid #f26722;
+    border-bottom: 5px solid #f26722;
+    background-color: #fff;
+    border-top: none;
+}
+
+.tabcontent a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #f26722;
+    text-decoration: none;
+}
+
+.tabcontent ul{
+    margin-left: 3%;
+}
+
+.tabcontent ul li{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    line-height: 25px;
+}
+
+.tabpara{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.project-detail-container{
+    background-color: #000;
+    height: 70vh;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-detail-container .project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-detail-container img{
+    height: 70%;
+    width: 50%;
+    cursor: pointer;
+    position: relative;
+    margin-left: 42%;
+} */ 

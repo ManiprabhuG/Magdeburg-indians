@@ -1,0 +1,280 @@
+.study-opportunities-text1 {
+    color: white;
+}
+
+.study-opportunities-text2 {
+    color: #f26722;
+}
+
+.study-opportunities-text3 {
+    color: #000;
+}
+
+.study-opportunities-text4 {
+    color: #fd7e14;
+}
+
+.study-opportunities-text5 {
+    color: #dc3545;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    background: #f26722;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: inherit;
+    z-index: 9;
+}
+
+.back-to-top:hover {
+    color: #ffffff;
+}
+
+.back-to-top:focus {
+    color: #ffffff;
+}
+
+.background1 {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+   
+
+
+
+}
+.study-opportunities-orange-container{
+    background-color: #f26722;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    color: white;
+    flex-direction:column;
+}
+
+
+
+.study-opportunities-college-name{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.study-opportunities-content {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.tab:nth-of-type(1) {
+    overflow-x: hidden;
+    border: 10px solid #f26722;
+    background-color: #000;
+    margin-left: 60px;
+    border-bottom: none;
+    border-right: 30px solid #f26722;
+    
+}
+
+.tab {
+    overflow-x: hidden;
+    border: 10px solid #f26722;
+    border-right: 30px solid #f26722;
+    background-color: #000;
+    margin-left: 60px;
+    border-top: none;
+    border-bottom: none;
+    
+   
+     
+
+}
+
+.tab .btn {
+    position: relative;
+    right: 1.4%;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.5s;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 1px;
+
+}
+
+.tab .btn.active {
+    background-color: #f26722;
+    position: relative;
+    
+
+}
+
+.tabcontent {
+    display: none;
+    padding: 30px 20px;
+    border: 10px solid #f26722;
+    
+    border-right: 30px solid #f26722;
+    color: black;
+    background-color: white;
+    border-top: none;
+    margin-left: 60px;
+    font-size: 18px;
+
+
+}
+
+/* second tab */
+.tab2:nth-of-type(1) {
+    overflow-x: hidden;
+    border: 10px solid #f26722;
+    background-color: #000;
+    margin-left: 60px;
+    border-bottom: none;
+    border-right: 30px solid #f26722;
+    
+}
+
+.tab2 {
+    overflow-x: hidden;
+    border: 10px solid #f26722;
+    border-right: 30px solid #f26722;
+    background-color: #000;
+    margin-left: 60px;
+    border-top: none;
+    border-bottom: none;
+
+   
+     
+
+}
+
+.tab2 .btn {
+    position: relative;
+    right: 1.4%;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.5s;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 1px;
+
+}
+
+.tab2 .btn.active {
+    background-color: #f26722;
+    position: relative;
+    
+
+}
+
+.tabcontent2 {
+    display: none;
+    padding: 30px 20px;
+    border: 10px solid #f26722;
+    
+    border-right: 30px solid #f26722;
+    color: white;
+    background-color: #191919;
+    border-top: none;
+    margin-left: 60px;
+    font-size: 18px;
+
+
+}
+
+/* third tab */
+.tab3:nth-of-type(1) {
+    overflow-x: hidden;
+    border: 10px solid #f26722;
+    background-color: #000;
+    margin-left: 60px;
+    border-bottom: none;
+    border-right: 30px solid #f26722;
+    
+}
+
+.tab3 {
+    overflow-x: hidden;
+    border: 10px solid #f26722;
+    border-right: 30px solid #f26722;
+    background-color: #000;
+    margin-left: 60px;
+    border-top: none;
+    border-bottom: none;
+    
+   
+     
+
+}
+
+.tab3 .btn {
+    position: relative;
+    right: 1.4%;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.5s;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 1px;
+
+}
+
+.tab3 .btn.active {
+    background-color: #f26722;
+    position: relative;
+    
+
+}
+
+.tabcontent3 {
+    display: none;
+    padding: 30px 20px;
+    border: 10px solid #f26722;
+
+    border-right: 30px solid #f26722;
+    color: black;
+    background-color: white;
+    border-top: none;
+    margin-left: 60px;
+    font-size: 18px;
+    margin-bottom: 100px;
+
+
+}

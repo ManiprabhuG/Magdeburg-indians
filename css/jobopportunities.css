@@ -1,0 +1,139 @@
+.jobopportunities-text1 {
+    color: white;
+}
+
+.jobopportunities-text2 {
+    color: #f26722;
+}
+
+.jobopportunities-text3 {
+    color: #000;
+    
+}
+
+.jobopportunities-text4 {
+    color: #fd7e14;
+}
+
+.jobopportunities-text5 {
+    color: #dc3545;
+}
+a:hover{
+    color: #f26722;
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    background: #f26722;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: inherit;
+    z-index: 9;
+}
+
+.back-to-top:hover {
+    color: #ffffff;
+}
+
+.back-to-top:focus {
+    color: #ffffff;
+}
+
+.typesofpartime-wrapper {
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+
+
+
+
+
+.jobopportunities-orange-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.tab {
+    margin-top: 60px;
+    overflow-x: hidden;
+    border: 10px solid #f26722;
+    border-right: 30px solid #f26722;
+    background-color: #000;
+    margin-left: 60px;
+    border-bottom: none;
+    
+
+}
+
+.parttimejobs-heading-wrapper {
+    padding-top: 30px;
+
+}
+
+.parttime-wrapper {
+    padding-top: 10px;
+    text-align: left;
+
+}
+
+
+.tab .btn {
+    position: relative;
+    
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.5s;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 1px;
+
+}
+
+.tab .btn.active {
+    background-color: #f26722;
+    position: relative;
+    
+
+}
+
+.tabcontent {
+    display: none;
+    padding: 30px 20px;
+    border: 10px solid #f26722;
+    border-right: 30px solid #f26722;
+    
+    color: black;
+    background-color: white;
+    border-top: none;
+    margin-left: 60px;
+    font-size: 18px;
+    margin-bottom: 60px;
+
+
+}
