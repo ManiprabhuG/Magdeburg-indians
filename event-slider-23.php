@@ -51,7 +51,7 @@
       
         <div class="row">
           <div class="col-md-2">
-           <a class="feature-btn" href="event-content-22.php">BACK</a>
+           <a class="feature-btn" href="event-content-23.php">BACK</a>
           </div>
           <div class="col-md-5 offset-md-2">
             <div class="section-title text-center">
@@ -63,13 +63,13 @@
        
         <div id="gallery-lightbox" class="row" data-toggle="modal" data-target="#exampleModal">
           <div class="col-6 col-md-4 col-lg-3 p-0">
-            <img class="w-100" src="images/events/2022/Republic Day 2022/img1.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="0">
+            <img class="w-100" src="images/events/2023/image-1.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="0">
           </div>
           <div class="col-6 col-md-4 col-lg-3 p-0">
-            <img class="w-100" src="images/events/2022/Republic Day 2022/img2.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="1">
+            <img class="w-100" src="images/events/2023/image-2.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="1">
           </div>
           <div class="col-6 col-md-4 col-lg-3 p-0">
-            <img class="w-100" src="images/events/2022/Republic Day 2022/img3.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="2">
+            <img class="w-100" src="images/events/2023/image-3.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="2">
           </div>
         </div>
 
@@ -82,13 +82,13 @@
               <div class="modal-body p-0">
                 <div id="carouselExample" class="carousel slide carousel-fade" data-ride="false">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" src="images/events/2022/Republic Day 2022/img1.jpg" alt="First slide" style="height:95vh;"; >
+                      <img class="d-block w-100" src="images/events/2023/image-1.jpg" alt="First slide" style="height:95vh;"; >
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="images/events/2022/Republic Day 2022/img2.jpg" alt="Second slide" style="height:95vh;";>
+                      <img class="d-block w-100" src="images/events/2023/image-2.jpg" alt="Second slide" style="height:95vh;";>
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="images/events/2022/Republic Day 2022/img3.jpg" alt="Third slide" style="height:95vh;";>
+                      <img class="d-block w-100" src="images/events/2023/image-3.jpg" alt="Third slide" style="height:95vh;";>
                     </div>
                     
                   </div>

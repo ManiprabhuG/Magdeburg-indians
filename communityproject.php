@@ -61,32 +61,8 @@
             </div>
         </section>
 
-        <section id="family-tabs-sections">
-            <div class="family-content mt-5 mb-5">
-                <div class="tab container">
-                    <button class="tablinks btn text-white" onclick="opencourse(event, 'University')" id="defaultOpen">
-                    Community Project
-                    </button>
-                </div>
-                <div id="University" class="tabcontent container">
-                    <p href="">
-                    At Magdeburg Indians e. V., we are always open to new ideas for events that cater to the diverse interests of both adults and children. We invite all community members to contribute ideas, volunteer, and help shape the future of our meetups. Your input ensures that our gatherings remain engaging, relevant, and reflective of our community’s needs.
-                    </p>
-                    <div class="img-container">
-                                <img style="width:90%; height: 70vh"; src="images/family/image-1.jfif">
-                                <img style="width:90%; height: 70vh"; src="images/family/image-2.jfif">
-                                <img style="width:90%; height: 70vh"; src="images/family/image-3.jfif">
-                                <img style="width:90%; height: 70vh"; src="images/family/image-4.jfif">
 
-                            </div>     
-
-            </div>
-</div>
-        </section>        
-
-
-<!-- 
-        <!-- Project About section Tabs ->
+        <!-- Project About section Tabs -->
         <div class="community-content mt-5 mb-5">
             <div class="tab container">
                 <button class="tablinks btn text-white" onclick="opencourse(event, 'University')" id="defaultOpen">
@@ -95,14 +71,8 @@
             </div>
 
 
-            <div id="University" class="tabcontent container">
-                  <h2>Food for Homeless in Magdeburg</h2>
-<p>Magdeburg Indians e. V. organized a food distribution event for the homeless community in Magdeburg. Volunteers prepared and served warm meals, offering support and kindness to those in need. The initiative reflects our commitment to giving back to the local community and fostering a spirit of compassion. We are grateful to our volunteers and look forward to hosting more such events in the future.
-</p>
-
-
-
-                <!-- <h4>Project Goals</h4>
+            <div id="University" class="tabcontent container py-5 px-5">
+                <h4>Project Goals</h4>
                 <ul>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae deserunt delectus dolorem ipsa fuga veniam harum iusto facere tempore voluptas veritatis incidunt expedita quaerat quo autem, esse dignissimos eaque voluptate.</li>
                     <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque magnam exercitationem delectus quasi esse neque expedita, nulla tenetur officia voluptates similique atque blanditiis aliquid. Explicabo ut a mollitia reprehenderit odio!</li>
@@ -160,19 +130,19 @@
                 <ul>
                     <li>09/07/2024</li>
                 </ul>
- 
+
                 <br>
             </div>
         </div>
 
 
         <div class="project-detail-container">
-            <div class="project-container">
+            <div class="project-container text-center">
                 <h3>View Project Details</h3>
                 <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>  Nihil facilis architecto consequatur veniam?</h6>
             </div>
 
-            <div id="gallery-lightbox" class="text-center row mt-4" data-toggle="modal" data-target="#exampleModal">
+            <div id="gallery-lightbox" class="row justify-content-center gap-4 mt-4 mb-4" data-toggle="modal" data-target="#exampleModal">
                 <div class="col-6 col-md-4 col-lg-3 pl-4">
                     <img class="w-100" src="images\communityProject\magdeburg-map-1.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="0">
                 </div>
@@ -186,7 +156,7 @@
         </div>
 
         
-        <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
             <button type="button" class="close m-0 p-3 text-white position-absolute right-0" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -207,8 +177,8 @@
                     </div>
                 </div>
             </div>
-        </div>
- -->
+        </div> -->
+
 
 
 

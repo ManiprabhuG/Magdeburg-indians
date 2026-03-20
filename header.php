@@ -45,8 +45,8 @@
                   <li>
                        <div class="row menu1">
                                 <div class="col-sm-3">
-                                    <a href="#" class="dropdown-item ">Gandhi Statue Inauguration</a>
-                                    <a href="" class="dropdown-item ">List
+                                    <a href="Gandhi.php" class="dropdown-item ">Gandhi Statue Inauguration</a>
+                                    <a href="list-of-Doctors.php" class="dropdown-item ">List
                                         of Doctors</a>
                                 </div>
                                 <div class="col-sm-3">
@@ -183,8 +183,8 @@
                  <ul class="dropdown-menu megamenu dropdown-menu-lg list-unstyled">
                   <li>
                   <div class="menu2">
-                     <a class="dropdown-item archivo-regular text-left" href="#">Membership Benefits</a>
-                      <a class="dropdown-item archivo-regular text-left" href="#">Join Us</a>
+                     <!-- <a class="dropdown-item archivo-regular text-left" href="#">Membership Benefits</a> -->
+                      <a class="dropdown-item archivo-regular text-left" href="be-a-member.php">Join Us</a>
                         
                         </div>
                   </li>

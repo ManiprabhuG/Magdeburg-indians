@@ -1,0 +1,251 @@
+*{
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.Membership-container{
+    background-color: #000000;
+    height: 70vh;
+    width: 100%;
+}
+
+.Membership-container .image-container img{
+    height: 28%;
+    width: 25%;
+    position: relative;
+    left: 25%;
+}
+
+.Membership-container .Membership-head-container{
+    position: relative;
+    right: 20%;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.Membership-heading{
+    width: 25vw;
+    font-size: 35px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.Membership-date{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 5px;
+}
+
+.Membership-notes{
+    margin-top: 2%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 20px;
+    width: 27vw;
+}
+
+/* Membership form styling */
+
+.form-heading{
+    font-family: "Hind Siliguri", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 600;
+    color: #f26722;
+}
+
+form .page .row-content{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10%;
+    margin-left: 1%;
+}
+
+form .page .row-content select{
+    height: 40px;
+    width: 35vw;
+    background-color: lightgray;
+    border: 2px solid #f26722;
+}
+
+form .page .row-content select option{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+
+form .page .row-content label{
+    font-size: 14px;
+    font-weight: 600;
+    color: #f26722;
+    width: 100%;
+}
+
+form .page .row-content input{
+    height: 40px;
+    width: 35vw;
+    padding: 0px 10px;
+    background: lightgray;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border: 2px solid #f26722;
+    opacity: .8;
+}
+
+form .page h6{
+    font-family: "Hind Siliguri", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+    color:#f26722;
+    margin-left: 1%;
+}
+
+form .page .radio-content{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1%;
+}
+
+form .page .radio-content div{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .page .radio-content label{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    width: 100%;
+}
+
+form .page .radio-content input{
+    position: relative;
+    top: -4px;
+    margin: 5px;
+    height: 40px;
+    color: #000;
+}
+
+form .page .radio-content input[type="radio"]{
+    accent-color: #f26722;
+}
+
+/* Overflow styling */
+
+form .page .profession{
+    margin-left: 1%;
+}
+
+form .page .profession-head h6{
+    font-family: "Hind Siliguri", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 600;
+    color: #f26722;
+}
+
+form .page .profession label{
+    font-size: 15px;
+    font-weight: 600;
+    color: #f26722;
+}
+
+form .page .radio-container .radio-page-1 .profession input,
+form .page .radio-container .radio-page-2 .profession input{
+    height: 40px;
+    width: 78vw;
+    padding: 0 10px;
+    background: lightgray;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border: 2px solid #f26722;
+    opacity: .8;
+}
+
+form .page .upload-file{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+}
+
+form .page .upload-file label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #f26722;
+}
+
+form .page .upload-file #file{
+    display: none;
+}
+
+form .page .upload-file a{
+    cursor: pointer;
+    background-color: #f26722;
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 6px;
+    border-style: none;
+    outline: none;
+    border: 2px solid #f26722;
+}
+
+form .page .radio-page-1 .row-content,
+form .page .radio-page-2 .row-content{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 7%;
+}
+
+form .page .radio-page-1 .paymentBtn,
+form .page .radio-page-2 .paymentBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    margin-right: 7.5%;
+}
+
+
+form .page .radio-page-1 .paymentBtn .Btn,
+form .page .radio-page-2 .paymentBtn .Btn{
+    height: 20%;
+    width: 100px;
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 1%;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #f26722;
+    border: none;
+    border-style: none;
+    border-radius: 8px;
+}
+
+
+form .page .radio-page-2{
+    display: none;
+
+}

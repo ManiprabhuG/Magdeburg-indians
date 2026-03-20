@@ -45,69 +45,92 @@
     
     <!--=================================
     Service -->
-    
     <section class="space-ptb">
       <div class="container">
-      
+     
         <div class="row">
           <div class="col-md-2">
-           <a class="feature-btn" href="event-content-22.php">BACK</a>
+            <a class="feature-btn" href="event-content-24.php">BACK</a>
           </div>
           <div class="col-md-5 offset-md-2">
             <div class="section-title text-center">
               <span class="pre-title"><h1>EVENTS</h1></span>
-              <h2>REPUBLIC DAY EVENTS 2022</h2>
+              <h2>Pillars of Success Meet 2024</h2>
             </div>
-          </div>
-        </div>
-       
-        <div id="gallery-lightbox" class="row" data-toggle="modal" data-target="#exampleModal">
-          <div class="col-6 col-md-4 col-lg-3 p-0">
-            <img class="w-100" src="images/events/2022/Republic Day 2022/img1.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="0">
-          </div>
-          <div class="col-6 col-md-4 col-lg-3 p-0">
-            <img class="w-100" src="images/events/2022/Republic Day 2022/img2.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-3 p-0">
-            <img class="w-100" src="images/events/2022/Republic Day 2022/img3.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="2">
           </div>
         </div>
 
-        <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
-          <button type="button" class="close m-0 p-3 text-white position-absolute right-0" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-          <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content bg-transparent">
-              <div class="modal-body p-0">
-                <div id="carouselExample" class="carousel slide carousel-fade" data-ride="false">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="images/events/2022/Republic Day 2022/img1.jpg" alt="First slide" style="height:95vh;"; >
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="images/events/2022/Republic Day 2022/img2.jpg" alt="Second slide" style="height:95vh;";>
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="images/events/2022/Republic Day 2022/img3.jpg" alt="Third slide" style="height:95vh;";>
-                    </div>
-                    
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
+        <div id="gallery-lightbox" class="row" data-toggle="modal" data-target="#exampleModal">
+  <div class="col-6 col-md-4 col-lg-3 p-0">
+    <img class="w-100" src="images/events/2024/image-1.png" alt="First slide" data-target="#carouselExample" data-slide-to="0">
+  </div>
+  <div class="col-6 col-md-4 col-lg-3 p-0">
+    <img class="w-100" src="images/events/2024/image-2.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="1">
+  </div>
+  <div class="col-6 col-md-4 col-lg-3 p-0">
+    <img class="w-100" src="images/events/2024/image-3.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="2">
+  </div>
+  <div class="col-6 col-md-4 col-lg-3 p-0">
+    <img class="w-100" src="images/events/2024/images-4.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="3">
+  </div>
+  <div class="col-6 col-md-4 col-lg-3 p-0">
+    <img class="w-100" src="images/events/2024/images-5.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="3">
+  </div>
+  <div class="col-6 col-md-4 col-lg-3 p-0">
+    <img class="w-100" src="images/events/2024/images-6.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="3">
+  </div>
+  
+</div>
+
+
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <button type="button" class="close m-0 p-3 text-white position-absolute right-0" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-transparent">
+      <div class="modal-body p-0">
+        <div id="carouselExample" class="carousel slide carousel-fade" data-ride="false">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="images/events/2021/Fresher Wise 2021/img1.jpg" alt="First slide" style="height:95vh;"; >
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/events/2021/Fresher Wise 2021/img2.jpg" alt="Second slide" style="height:95vh;";>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/events/2021/Fresher Wise 2021/img3.jpg" alt="Third slide" style="height:95vh;";>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/events/2021/Fresher Wise 2021/img4.jpg" alt="Fourth slide" style="height:95vh;";>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/events/2021/Fresher Wise 2021/img5.jpg" alt="Fourth slide" style="height:95vh;";>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="images/events/2021/Fresher Wise 2021/img6.jpg" alt="Fourth slide" style="height:95vh;";>
             </div>
           </div>
-        </div>       
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>       
             
     </section>
-        
+  
+      
+      
+
+    <!--=================================
+    Service -->
 
     <!--=================================
     footer-->

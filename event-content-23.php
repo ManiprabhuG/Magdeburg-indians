@@ -45,69 +45,36 @@
     
     <!--=================================
     Service -->
-    
     <section class="space-ptb">
       <div class="container">
-      
-        <div class="row">
-          <div class="col-md-2">
-           <a class="feature-btn" href="event-content-22.php">BACK</a>
-          </div>
-          <div class="col-md-5 offset-md-2">
-            <div class="section-title text-center">
-              <span class="pre-title"><h1>EVENTS</h1></span>
-              <h2>REPUBLIC DAY EVENTS 2022</h2>
+          <div class="row">
+            <div class="col-md-2">
+              <a class="feature-btn" href="event.php">BACK</a>
+            </div>
+            <div class="col-md-5 offset-md-2">
+              <div class="section-title text-center">
+              <span class="pre-title"><h3>EVENTS-2022</h3></span>         
             </div>
           </div>
-        </div>
-       
-        <div id="gallery-lightbox" class="row" data-toggle="modal" data-target="#exampleModal">
-          <div class="col-6 col-md-4 col-lg-3 p-0">
-            <img class="w-100" src="images/events/2022/Republic Day 2022/img1.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="0">
-          </div>
-          <div class="col-6 col-md-4 col-lg-3 p-0">
-            <img class="w-100" src="images/events/2022/Republic Day 2022/img2.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="1">
-          </div>
-          <div class="col-6 col-md-4 col-lg-3 p-0">
-            <img class="w-100" src="images/events/2022/Republic Day 2022/img3.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="2">
+        
+          <div class="row bodymain-1">
+          <div class="columns-wrapper">
+            <div class="flex">
+              <div class="colm">
+              <div class="feature-image"><a href="event-slider-23.php"><img class="img-fluid-5" src="images/events/2022/Republic Day 2022/img2.jpg" alt="Image" /></a></div>
+                
+                  <h5>Magdeburg City Tour (Winter 2023)</h5>
+                     <a class="feature-btn-2" href="event-slider-23.php">SEE MORE<i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>  
           </div>
         </div>
 
-        <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
-          <button type="button" class="close m-0 p-3 text-white position-absolute right-0" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-          <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content bg-transparent">
-              <div class="modal-body p-0">
-                <div id="carouselExample" class="carousel slide carousel-fade" data-ride="false">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="images/events/2022/Republic Day 2022/img1.jpg" alt="First slide" style="height:95vh;"; >
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="images/events/2022/Republic Day 2022/img2.jpg" alt="Second slide" style="height:95vh;";>
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="images/events/2022/Republic Day 2022/img3.jpg" alt="Third slide" style="height:95vh;";>
-                    </div>
-                    
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>       
-            
+
+      </div>
     </section>
-        
+    <!--=================================
+    Service -->
 
     <!--=================================
     footer-->

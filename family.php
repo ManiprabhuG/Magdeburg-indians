@@ -44,7 +44,7 @@
         <!-- Family scroll image section -->
         <section id="family-session">
             <div class="container-fluid mb-5">
-                <div class="family-container" style="background-image: url(images/family/family.jpeg)">
+                <div class="family-container" style="background-image: url(images/family/image-6.jpg)">
                     <div class="family-scroll-content">
                         <h2 class="family-scroll-heading">
                             Family (Events & Parenting Resources)
@@ -62,28 +62,21 @@
             <div class="family-content mt-5 mb-5">
                 <div class="tab container">
                     <button class="tablinks btn text-white" onclick="opencourse(event, 'University')" id="defaultOpen">
-                    Family Events
+                        Events
                     </button>
-                    <button class="tablinks btn text-white" onclick="opencourse(event, 'Families')">
-                    For Families and Children
-                    </button>
-                    <button class="tablinks btn text-white" onclick="opencourse(event, 'Working')">
-                    For Working Professionals
-                    </button>
-                    <button class="tablinks btn text-white" onclick="opencourse(event, 'Building')">
-                    Building Lasting Connections
-                    </button>
-                    <button class="tablinks btn text-white" onclick="opencourse(event, 'Growing')">
-                    A Platform for Sharing and Growing
+                    <button class="tablinks btn text-white" onclick="opencourse(event, 'loremipsum')">
+                        Parenting Resources
                     </button>
     
                 </div>
     
     
                 <div id="University" class="tabcontent container">
-                    <p href="">
-                    At Magdeburg Indians e. V., we proudly organize regular meetups for working professionals and families within our community. These gatherings provide an opportunity for everyone to unwind, bond, and celebrate our rich cultural heritage. Through a variety of games and cultural activities, we create an environment where both adults and children can connect, enjoy, and nurture their roots.
-</p>
+                    <a href="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati soluta sit, 
+                        molestiae voluptatum fugiat error amet cum consequatur, iusto reiciendis
+                        nesciunt optio consectetur iste dolores, tempora dolore quisquam minus deserunt.
+                    </a>
 
                     <!-- <div>
 
@@ -146,47 +139,11 @@
                     </div> -->
                 </div>
     
-                <div id="Families" class="tabcontent container">
-                <p>
-                Our events are designed to ensure that children, from a young age, remain connected to our shared culture. Through interactive activities, traditional games, and creative programs, kids not only have fun but also learn about their heritage in a meaningful way. These meetups offer them a space to form friendships with others in the community, strengthening their sense of belonging.
-</p>    
-                <a href="">
-
+                <div id="loremipsum" class="tabcontent container">
+                    <a href="">
                         www.young-germany.de/topic/live/family-friends/parenting-in-germany-an-introduction
                     </a>
                 </div>
-
-                <div id="Working" class="tabcontent container">
-                    <p href="">
-                    For working professionals, our meetups provide a supportive platform to network, share experiences, and discuss both personal and professional challenges. These casual yet meaningful interactions foster a sense of camaraderie and mutual encouragement, making it easier to navigate life in a new country.
-</p>
-                </div>
-
-                <div id="Building" class="tabcontent container">
-                    <p href="">
-                    Beyond the activities and discussions, these events often lead to the creation of lifelong friendships. Many families and individuals who meet during our events stay connected, forming bonds that go beyond these gatherings and extending into lasting personal and professional relationships.
-</p>
-                </div>
-
-                <div id="Growing" class="tabcontent container">
-                    <p href="">
-                    At Magdeburg Indians e. V., we are always open to new ideas for events that cater to the diverse interests of both adults and children. We invite all community members to contribute ideas, volunteer, and help shape the future of our meetups. Your input ensures that our gatherings remain engaging, relevant, and reflective of our community’s needs.
-</p>
-
-                    <div class="events-bring mb-5">
-                            
-                            <div class="title-text-content">
-                                <p>Join Us! If you are interested in joining our next family and working professional meetup, or if you would like to volunteer or suggest ideas for future events, we encourage you to reach out to us. Together, we can continue to foster a vibrant and supportive community that thrives on connection and shared experiences.</p>
-                            </div>
-
-                            <div class="img-container">
-                                <img src="images/family/image-6.jfif">
-                                />
-                            </div>
-                        </div>
-                </div>
-
-
             </div>
         </section>
 

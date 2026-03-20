@@ -10,8 +10,7 @@
     margin: 0;
 }
 
-.family-container{
-    background-image: url("images/family/image-6.jpg") !important;
+.list-of-doctor-container{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -20,7 +19,7 @@
     width: 100%;
 }
 
-.family-scroll-content{
+.list-of-doctor-scroll-content{
     display: flex;
     height: 130%;
     flex-direction: column;
@@ -30,13 +29,13 @@
     row-gap: 30%;
 }
 
-.family-scroll-heading{
-    color: #fff;
+.doctor-scroll-heading{
+    color: #000;
     font-size: 30px;
     font-weight: 700;
 }
 
-.family-scroll-icons-container{
+.doctor-scroll-icons-container{
     background-color: #fff;
     height: 8%;
     width: 60px;
@@ -47,16 +46,16 @@
     align-items: center;
 }
 
-.family-scroll-icons-container i{
+.doctor-scroll-icons-container i{
     color: #1d2e68;
     font-weight: 600;
-    
+    transition: 0.5s;
 }
 
 
-/* family events & Parenting stylings */
+/* list of doctors */
 
-.family-content p {
+.doctor-content p {
     padding-top: 20px;
     background-color: #000000;
 }
@@ -96,7 +95,7 @@
     display: none;
     padding: 30px 20px;
     border: 5px solid #f26722;
-    background-color: #fff;
+    background-color: #000;
     border-top: none;
 }
 
@@ -106,71 +105,4 @@
     color: #f26722;
     text-decoration: none;
 }
-
-
-/* Events styling start's now */
-
-/* .tabcontent .events-bring{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.tabcontent .img-container img{
-    height: 100%;
-    width: 40%;
-    position: relative;
-    left: 10%;
-}
-
-.tabcontent .title-text-content p{
-    color: #000000;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: #fff;
-}
-
-.tabcontent .title-text-content p span{
-    color: #f26722;
-    font-weight: 600;
-}
-
-.tabcontent .about-title p{
-    background-color: #fff;
-    color: #000;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.tabcontent #form-container input{
-    height: 35px;
-    width: 25%;
-    background-color: #fff;
-    border: 3px solid #f26722;
-    border-radius: 8px;
-    padding: 0px 10px;
-    color: #000;
-}
-
-.tabcontent label{
-    color: #000;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.tabcontent span{
-    color: #000;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.tabcontent #Generalpack{
-    height: 5%;
-    width: 10%;
-} */
-
-
-
 

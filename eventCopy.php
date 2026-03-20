@@ -15,8 +15,8 @@
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;600&family=Lobster&family=Mukta&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;600&family=Lobster&family=Mukta&family=Poppins:wght@500&display=swap" rel="stylesheet">
 
     <!-- CSS Global Compulsory (Do not remove)-->
     <link rel="stylesheet" href="css/font-awesome/all.min.css" />
@@ -45,92 +45,9 @@
     
     <!--=================================
     Service -->
-    <section class="event-month">
-      <h1>UPCOMMING EVENTS</h1>
-      <table>
-          <thead>
-              <tr>
-                  <th>Month</th>
-                  <th>Event</th>
-                  <th>Date</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-
-                  <td><a href="event-slider-22.php" style="cursor: pointer; color: #333;">January</a></td>
-                  <td>New Year's Day</td>
-                  <td>January 1</td>
-              </tr>
-              <tr>
-                  <td><a href="event-slider-21-fresher.php" style="cursor: pointer; color: #333;">February</a></td>
-                  <td>Valentine's Day</td>
-                  <td>February 14</td>
-              </tr>
-              <tr>
-                  <td><a href="event-slider-20-virtual.php" style="cursor: pointer; color: #333;">March</a></td>
-                  <td>St. Patrick's Day</td>
-                  <td>March 17</td>
-              </tr>
-              <tr>
-                  <td><a href="event-slider-19-student.php" style="cursor: pointer; color: #333;">April</a></td>
-                  <td>April Fool's Day</td>
-                  <td>April 1</td>
-              </tr>
-              <tr>
-                  <td><a href="event-slider-18-fresher.php" style="cursor: pointer; color: #333;">May</a></td>
-                  <td>Freshers Nighty</td>
-                  <td>********</td>
-              </tr>
-
-              <tr>
-                  <td><a href="event-slider-17-utsav.php" style="cursor: pointer; color: #333;">June</a></td>
-                  <td>********</td>
-                  <td>********</td>
-              </tr>
-
-              <tr>
-                  <td><a href="event-slider-16-indian.php" style="cursor: pointer; color: #333;">July</a></td>
-                  <td>April Fool's Day</td>
-                  <td>********</td>
-              </tr>
-              
-              <tr>
-                  <td>August</td>
-                  <td>*********</td>
-                  <td>********</td>
-              </tr>
-
-              <tr>
-                  <td>September</td>
-                  <td>April Fool's Day</td>
-                  <td>********</td>
-              </tr>
-
-              <tr>
-                  <td>October</td>
-                  <td>Europhoria Festivals</td>
-                  <td>********</td>
-              </tr>
-              
-              <tr>
-                  <td>November</td>
-                  <td>Halloween Festivals</td>
-                  <td>********</td>
-              </tr>
-
-              <tr>
-                  <td>December</td>
-                  <td>Indian Night</td>
-                  <td>********</td>
-              </tr>
-
-              <!-- Add more rows as needed -->
-          </tbody>
-      </table>
-    </section>
 
 
+    
     <section class="space-ptb">
       <div class="container">
           
@@ -146,7 +63,7 @@
         </div>
 
 
-        <!-- <div class="row">
+        <div class="row">
           <div class="col-5">
             <div class="calendar-container">
               <header class="calendar-header">
@@ -243,7 +160,7 @@
               </tbody>
             </table>
           </div>
-        </div> -->
+        </div>
         
         
 
@@ -254,22 +171,22 @@
               <div class="colm">
                 <div class="feature-image">
                   <a  href="event-content-22.php">
-                    <img class="img-fluid-5" src="images/events/2024/event2k24.png" alt="Image" />
+                    <img class="img-fluid-5" src="images/events/2024/Event2k24.jpg" alt="Image" />
                   </a>
                 </div> 
                   <h2>2024</h2>
-                  <p>Cognition, Concentration, and Consciousness: the Pillars of Success </p>
-                  <a class="feature-btn-1" href="event-content-24.php">SEE MORE <i class="fas fa-arrow-right"></i></a>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, </p>
+                  <a class="feature-btn-1" href="event-content-22.php">SEE MORE <i class="fas fa-arrow-right"></i></a>
               </div>
 
               <div class="colm">
                 <div class="feature-image">
-                  <a  href="event-content-23.php">
-                    <img class="img-fluid-5" src="images/events/2023/event2k23.png" alt="Image" />
+                  <a  href="event-content-22.php">
+                    <img class="img-fluid-5" src="images/events/2023/Event2k23.jpg" alt="Image" />
                   </a>
                 </div> 
                   <h2>2023</h2>
-                  <p>Magdeburg City Tour (Winter 2023)</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, </p>
                   <a class="feature-btn-1" href="event-content-22.php">SEE MORE <i class="fas fa-arrow-right"></i></a>
               </div>
 
@@ -407,6 +324,8 @@
 
       </div>
     </section>
+
+
 
     <!--=================================
     Service -->
