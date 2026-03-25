@@ -52,11 +52,14 @@
         <div class="background1" style="background-image: url(images/study-opportunities/study12.jpg);">
 
         </div>
+
         <div class="study-opportunities-orange-container">
             <h4 class="study-opportunities-text1">This page lists out the opportunities available for students.</h4>
             <h4 class="study-opportunities-text1">It includes information on courses of
                 study and upcoming research opportunities. </h4>
         </div>
+
+        
         <h2 class="study-opportunities-college-name">Otto-von Guericke University</h2>
         <div class="study-opportunities-content">
 
@@ -215,36 +218,6 @@
 
 
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

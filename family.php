@@ -44,13 +44,13 @@
         <!-- Family scroll image section -->
         <section id="family-session">
             <div class="container-fluid mb-5">
-                <div class="family-container" style="background-image: url(images/family/image-6.jpg)">
+                <div class="family-container" style="background-image: url(images/family/image-6.png);">
                     <div class="family-scroll-content">
                         <h2 class="family-scroll-heading">
                             Family (Events & Parenting Resources)
                         </h2>
                         <div class="family-scroll-icons-container">
-                            <a href="#Gandhi-Articles-section"><i class="fa-solid fa-arrow-down-long fa-lg"></i></a>
+                            <a href="#family-tabs-sections"><i class="fa-solid fa-arrow-down-long fa-lg"></i></a>
                         </div>
                     </div>
                 </div>

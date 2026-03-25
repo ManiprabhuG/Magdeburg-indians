@@ -107,21 +107,21 @@
 
 
                 <!-- <div class="col-6 col-md-4 col-lg-3 p-0">
-                <img class="w-100" src="images/events/2021/Fresher Wise 2021/img3.jpg" alt="third slide"
-                    data-target="#carouselExample" data-slide-to="2">
-            </div> -->
-                <!-- <div class="col-6 col-md-4 col-lg-3 p-0">
-                <img class="w-100" src="images/events/2021/Fresher Wise 2021/img4.jpg" alt="Fourth slide"
-                    data-target="#carouselExample" data-slide-to="3">
-            </div> -->
-                <!-- <div class="col-6 col-md-4 col-lg-3 p-0">
-                <img class="w-100" src="images/events/2021/Fresher Wise 2021/img5.jpg" alt="Fifth slide"
-                    data-target="#carouselExample" data-slide-to="3">
-            </div> -->
-                <!-- <div class="col-6 col-md-4 col-lg-3 p-0">
-                <img class="w-100" src="images/events/2021/Fresher Wise 2021/img6.jpg" alt="sixth slide"
-                    data-target="#carouselExample" data-slide-to="3">
-            </div> -->
+                    <img class="w-100" src="images/events/2021/Fresher Wise 2021/img3.jpg" alt="third slide"
+                        data-target="#carouselExample" data-slide-to="2">
+                </div>
+                    <div class="col-6 col-md-4 col-lg-3 p-0">
+                    <img class="w-100" src="images/events/2021/Fresher Wise 2021/img4.jpg" alt="Fourth slide"
+                        data-target="#carouselExample" data-slide-to="3">
+                </div>
+                    <div class="col-6 col-md-4 col-lg-3 p-0">
+                    <img class="w-100" src="images/events/2021/Fresher Wise 2021/img5.jpg" alt="Fifth slide"
+                        data-target="#carouselExample" data-slide-to="3">
+                </div>
+                    <div class="col-6 col-md-4 col-lg-3 p-0">
+                    <img class="w-100" src="images/events/2021/Fresher Wise 2021/img6.jpg" alt="sixth slide"
+                        data-target="#carouselExample" data-slide-to="3">
+                </div> -->
             </div>
 
 

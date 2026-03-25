@@ -45,7 +45,9 @@
     
     <!--=================================
     Service -->
-    <section class="event-month">
+
+
+    <!-- <section class="event-month">
       <h1>UPCOMMING EVENTS</h1>
       <table>
           <thead>
@@ -125,10 +127,9 @@
                   <td>********</td>
               </tr>
 
-              <!-- Add more rows as needed -->
           </tbody>
       </table>
-    </section>
+    </section> -->
 
 
     <section class="space-ptb">
@@ -146,8 +147,12 @@
         </div>
 
 
-        <!-- <div class="row">
-          <div class="col-5">
+        <div class="row">
+          <div class="tableHead d-flex justify-content-center col-12">
+            <h1>Upcoming Events</h1>
+          </div>
+
+          <div class="col-6">
             <div class="calendar-container">
               <header class="calendar-header">
                   <p class="calendar-current-date"></p>
@@ -178,11 +183,9 @@
             </div>
           </div>
 
-          <div class="col-7">
-            <div class="tableHead">
-              <h1>Upcoming Events</h1>
-            </div>
-            <table class="eventTable">
+
+          <div class="d-flex justify-content-center col-6">
+            <table class="eventTable mt-5">
               <thead>
                   <tr>
                       <th>Period</th>
@@ -243,7 +246,7 @@
               </tbody>
             </table>
           </div>
-        </div> -->
+        </div>
         
         
 
@@ -253,7 +256,7 @@
 
               <div class="colm">
                 <div class="feature-image">
-                  <a  href="event-content-22.php">
+                  <a  href="event-content-24.php">
                     <img class="img-fluid-5" src="images/events/2024/event2k24.png" alt="Image" />
                   </a>
                 </div> 

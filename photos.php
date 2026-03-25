@@ -67,7 +67,7 @@
 
                 <div class="image-wrapper ">
                     <a href="photo-slider-22-night.php">
-                        <img src="images/events/2022/fresher's night/freshers night.jpg"
+                        <img src="images/events/2022/fresher_s night/freshers night.jpg"
                             alt="image" class="img-fluid-5">
 
 
